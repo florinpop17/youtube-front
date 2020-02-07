@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "YouTube Pop Recommender 😏",
+	"version": "1.0.0",
+	"content_scripts": [
+		{
+			"matches": ["https://www.youtube.com/"],
+			"js": ["script.js"],
+			"css": ["style.css"]
+		}
+	]
+}
